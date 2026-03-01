@@ -47,4 +47,9 @@ greet = "happy father's day"
 # print(greet[-5:-13:-1])
 # print(greet[-14::-1])
 
+# ! day 4 slicinig
+
+#slicing 
+
+
 

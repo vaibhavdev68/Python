@@ -14,7 +14,7 @@ b = "hello"
 
 # keywords
 # they are universaly standard words which are predefined by developer, to perform specific task.
-# ther are 35 keywords out of 35 keywords 3 are special keywords
+# there are 35 keywords out of 35 keywords 3 are special keywords
 
 
 # keywords.kwlist => it give all keyword in id.
