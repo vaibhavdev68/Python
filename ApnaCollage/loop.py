@@ -52,16 +52,50 @@
            
     
 #     else:
-#         print(" no not matched")
+#         print("finding...")
 
 #     idx+=1
 
 # Break and continue
-i = 1
-while i <=5:
-    print(i)
-    if(i==3):
-        break
-    i += 1
+# i = 0
+# while i <=5:
     
+#     if(i==3):
+#       i+=1
+
+#       continue #skip
+#     print(i)
+#     i += 1
+
+
+
+# i = 1
+# while i<=10:
+#     if(i%2==0):
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+
     
+
+#for loop are used for sequential element
+list = [1, 2, 3, 4, 5]
+
+for num in list:
+    print(num)
+
+
+
+
+veg = ["potato", "mango", "brinjal", "ladyfinger", "cucumber", ["tomato", "pumpkin"]]
+for cook in veg:
+    print(cook)
+    print(type(cook))
+
+
+str = "apnacollage"
+for char in str:
+    print(char)
+# else:
+#     print("loop end")  optional 
