@@ -80,22 +80,71 @@
     
 
 #for loop are used for sequential element
-list = [1, 2, 3, 4, 5]
+# list = [1, 2, 3, 4, 5]
 
-for num in list:
-    print(num)
-
-
+# for num in list:
+#     print(num)
 
 
-veg = ["potato", "mango", "brinjal", "ladyfinger", "cucumber", ["tomato", "pumpkin"]]
-for cook in veg:
-    print(cook)
-    print(type(cook))
 
 
-str = "apnacollage"
-for char in str:
-    print(char)
-# else:
-#     print("loop end")  optional 
+# veg = ["potato", "mango", "brinjal", "ladyfinger", "cucumber", ["tomato", "pumpkin"]]
+# for cook in veg:
+#     print(cook)
+#     print(type(cook))
+
+
+# str = "apnacollage"
+# for char in str:
+#     print(char)
+# # else:
+# #     print("loop end")  optional 
+
+
+
+
+#range 
+# seq = range(5)
+
+
+# print(seq[0])
+# print(seq[1])
+# print(seq[2])
+# print(seq[3])
+# print(seq[4])
+
+
+# for i in range(1,101):
+#     print(i)
+
+
+
+
+# for i in range (100,0,-1):
+#     print(i)
+
+# n = 6
+
+# for i in range (1,11):
+#     print(f" {n} * {i} = {n*i}")
+
+
+
+
+#pass state ment 
+
+# for i in range(5):
+#     pass 
+#     #emty
+# print("some use full work")    
+
+
+# wap to find the sum of first n number using while
+
+n = int(input("enter a number"))
+i = 1
+sum=0
+while i<=n:
+    sum+=i
+    i+=1
+print(sum)
