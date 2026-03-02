@@ -33,10 +33,35 @@
 
 
 
-l1 = [1,4,9,16,25,36,49, 64,81,100]
-index = 0
-while index<len(l1):
-    print(l1[index])
-    index +=1
+# l1 = [1,4,9,16,25,36,49, 64,81,100]
+# index = 0
+# while index<len(l1):
+#     print(l1[index])
+#     index +=1
 
+
+
+# x = 4
+
+# tup = ( 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 4)
+# idx = 0
+# while idx < len(tup):
+   
+#     if(tup[idx]== x):
+#         print("found number is matched at index", idx)
+           
+    
+#     else:
+#         print(" no not matched")
+
+#     idx+=1
+
+# Break and continue
+i = 1
+while i <=5:
+    print(i)
+    if(i==3):
+        break
+    i += 1
+    
     
