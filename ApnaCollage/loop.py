@@ -141,10 +141,34 @@
 
 # wap to find the sum of first n number using while
 
-n = int(input("enter a number"))
-i = 1
-sum=0
-while i<=n:
-    sum+=i
-    i+=1
-print(sum)
+# n = int(input("enter a number"))
+# i = 1
+# sum=0
+# while i<=n:
+#     sum+=i
+#     i+=1
+# print(sum)
+
+
+# factorial of n 
+# fact=1
+
+# n = int(input("enter a number : "))
+# for i in range(1,n+1):
+#     fact*=i
+# print(fact)
+
+
+
+
+#Function 
+def  func_sum(a, b):
+    sum = a+b
+    print(sum)
+    return sum
+func_sum(6,7)
+func_sum(1,3)
+func_sum(9,9)
+
+
+
