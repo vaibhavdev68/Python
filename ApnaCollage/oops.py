@@ -26,3 +26,26 @@ s2.display()
 
 
 #oops 
+
+
+
+class Bird:
+    def sound(self):
+        print("Bird makes sound")
+
+
+class Sparrow(Bird):
+    def sound(self):
+        print("Sparrow chirps")
+
+
+class Crow(Bird):
+    def sound(self):
+        print("Crow caws")
+
+
+b1 = Sparrow()
+b2 = Crow()
+
+b1.sound()
+b2.sound()
