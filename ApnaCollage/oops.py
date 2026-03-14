@@ -49,3 +49,13 @@ b2 = Crow()
 
 b1.sound()
 b2.sound()
+
+
+
+n = 5
+sum = 0
+
+for i in range(1, n + 1):
+    res += i ** 3
+
+print(res)
