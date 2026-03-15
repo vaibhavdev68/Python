@@ -1,61 +1,22 @@
-class Student:
-    
-    # constructor
-    def __init__(self, name, age, course):
-        self.name = name
-        self.age = age
-        self.course = course
+def under_attack(col, queens):
+    left = right = col
 
-    # method
-    def display(self):
-        print("Student Name:", self.name)
-        print("Age:", self.age)
-        print("Course:", self.course)
+    for r, c in reversed(queens):
+        left, right = left - 1, right + 1
 
+        if c in (left, col, right):
+            return True
+    return False
 
-# creating objects
-s1 = Student("Vaibhav", 21, "BCA")
-s2 = Student("Rahul", 22, "B.Tech")
+def solve(n):
+    if n == 0:
+        return [[]]
 
-# calling method
-s1.display()
+    smaller_solutions = solve(n - 1)
 
-print("---------------")
-
-s2.display()
-
-
-#oops 
-
-
-
-class Bird:
-    def sound(self):
-        print("Bird makes sound")
-
-
-class Sparrow(Bird):
-    def sound(self):
-        print("Sparrow chirps")
-
-
-class Crow(Bird):
-    def sound(self):
-        print("Crow caws")
-
-
-b1 = Sparrow()
-b2 = Crow()
-
-b1.sound()
-b2.sound()
-
-
-
-n = 5
-sum = 0
-
-for i in range(1, n + 1):
-    res += i ** 3
-
-print(res)
+    return [solution+[(n,i+1)]
+        for i in range(BOARD_SIZE)
+            for solution in smaller_solutions
+                if not under_attack(i+1, solution)]
+for answer in solve(BOARD_SIZE):
+    print (answer)
