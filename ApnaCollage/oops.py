@@ -46,7 +46,24 @@
 # print(f"{parrot2.name} is {parrot2.age} years old")
 
 
-start, end = -5, 0  
-for i in range(start, end + 1):  
-    if i < 0:  # Check if the number is negative
-        print(i)
+# start, end = -5, 0  
+# for i in range(start, end + 1):  
+#     if i < 0:  # Check if the number is negative
+#         print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x, y = input("Enter two values: ").split()
+print("Number of boys: ", x)
+print("Number of girls: ", y)
